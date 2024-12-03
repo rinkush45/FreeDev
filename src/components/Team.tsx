@@ -1,21 +1,42 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import Rinku from '/src/components/images/Rinku.png';
+import Ramkishan from "/src/components/images/Ramkishan.png";
+import Rahul from "/src/components/images/Rahul.png";
+import Manikant from "/src/components/images/Manikant.png";
+import Anuj from "/src/components/images/Anuj.png";
+import Nitish from "/src/components/images/Nitish.png";
 
 const team = [
   {
-    name: 'Sarah Johnson',
-    role: 'Lead Developer',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    name: 'Rinku Sharma',
+    role: 'DevOps & Cloud Engineer',
+    image: Rinku,
   },
   {
-    name: 'Michael Chen',
-    role: 'UI/UX Designer',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    name: 'Ramkishan Rohila',
+    role: 'AI & ML Engineer',
+    image: Ramkishan,
   },
   {
-    name: 'Emily Rodriguez',
+    name: 'Rahul Raj Yadav',
+    role: 'Data Science & ML Engineer',
+    image: Rahul,
+  },
+  {
+    name: 'Manikant',
     role: 'Full Stack Developer',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: Manikant,
+  },
+  {
+    name: 'Anuj Gaurave',
+    role: 'Java & Web Developer',
+    image: Anuj,
+  },
+  {
+    name: 'Nitish Kumar Jha',
+    role: 'Full Stack & UI/UX Developer',
+    image: Nitish,
   },
 ];
 
