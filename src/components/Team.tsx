@@ -12,31 +12,49 @@ const team = [
     name: 'Rinku Sharma',
     role: 'Founder And DevOps & Cloud Engineer',
     image: Rinku,
+    github: 'https://github.com/rinkush45',
+    linkedin: 'https://linkedin.com/in/rinkush45',
+    email: 'mailto:sharmarinku@outlook.in',
   },
   {
     name: 'Ramkishan Rohila',
     role: 'Co-Founder And AI & ML Engineer',
     image: Ramkishan,
+    github: 'https://github.com/ramkishan',
+    linkedin: 'https://linkedin.com/in/ramkishan',
+    email: 'mailto:ramkishan@example.com',
   },
   {
     name: 'Rahul Raj Yadav',
     role: 'CTO And Data Science & ML Engineer',
     image: Rahul,
+    github: 'https://github.com/rahul',
+    linkedin: 'https://linkedin.com/in/rahul',
+    email: 'mailto:rahul@example.com',
   },
   {
     name: 'Manikant',
     role: 'Full Stack Developer',
     image: Manikant,
+    github: 'https://github.com/manikant',
+    linkedin: 'https://linkedin.com/in/manikant',
+    email: 'mailto:manikant@example.com',
   },
   {
     name: 'Anuj Gaurave',
     role: 'Java & Web Developer',
     image: Anuj,
+    github: 'https://github.com/anuj',
+    linkedin: 'https://linkedin.com/in/anuj',
+    email: 'mailto:anuj@example.com',
   },
   {
     name: 'Nitish Kumar Jha',
     role: 'Full Stack & UI/UX Developer',
     image: Nitish,
+    github: 'https://github.com/nitish',
+    linkedin: 'https://linkedin.com/in/nitish',
+    email: 'mailto:nitish@example.com',
   },
 ];
 
@@ -63,9 +81,15 @@ export function Team() {
                 />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-b from-transparent to-black opacity-0 group-hover:opacity-75 transition-opacity">
                   <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-center space-x-4">
-                    <Github className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
-                    <Linkedin className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
-                    <Mail className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
+                    <a href={member.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
+                    </a>
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
+                    </a>
+                    <a href={member.email}>
+                      <Mail className="h-6 w-6 text-white cursor-pointer hover:text-indigo-400" />
+                    </a>
                   </div>
                 </div>
               </div>
