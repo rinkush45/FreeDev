@@ -52,9 +52,9 @@ const team = [
     name: 'Nitish Kumar Jha',
     role: 'Full Stack & UI/UX Developer',
     image: Nitish,
-    github: 'https://github.com/nitish',
-    linkedin: 'https://linkedin.com/in/nitish',
-    email: 'mailto:nitish@example.com',
+    github: 'https://github.com/nitishkumar525',
+    linkedin: 'https://linkedin.com/in/nitish-kumar-jha',
+    email: 'mailto:nitishjha525@gmail.com',
   },
 ];
 
