@@ -10,17 +10,17 @@ import Nitish from "/src/components/images/Nitish.png";
 const team = [
   {
     name: 'Rinku Sharma',
-    role: 'DevOps & Cloud Engineer',
+    role: 'Founder And DevOps & Cloud Engineer',
     image: Rinku,
   },
   {
     name: 'Ramkishan Rohila',
-    role: 'AI & ML Engineer',
+    role: 'Co-Founder And AI & ML Engineer',
     image: Ramkishan,
   },
   {
     name: 'Rahul Raj Yadav',
-    role: 'Data Science & ML Engineer',
+    role: 'CTO And Data Science & ML Engineer',
     image: Rahul,
   },
   {
