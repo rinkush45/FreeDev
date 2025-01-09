@@ -10,7 +10,7 @@ export function HomePage() {
     <>
       <Hero />
       <Services />
-      <Team />
+      {/* <Team /> */}
       <Reviews />
       <Contact />
     </>
