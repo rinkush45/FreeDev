@@ -6,6 +6,7 @@ import { HomePage } from './pages/HomePage';
 import { ServicePage } from './pages/ServicePage';
 import { CareersPage } from './pages/CareersPage';
 import { JobDetailsPage } from './pages/JobDetailsPage';
+import { Team } from './components/Team';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/services/:serviceId" element={<ServicePage />} />
             <Route path="/careers" element={<CareersPage />} />
             <Route path="/careers/:jobId" element={<JobDetailsPage />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
           <Footer />
         </div>
